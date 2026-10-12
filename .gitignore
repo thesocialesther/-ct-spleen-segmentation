@@ -1,0 +1,21 @@
+# Installed packages and local notebook runtime state
+.venv/
+.ipython/
+.jupyter/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dataset is downloaded separately; preserve model and prediction artifacts
+/Task09_Spleen/
+._*
+
+# Regenerated preprocessing caches and local publication staging
+/artifacts/**/cache_*/
+/.publish/
+
+# Local credentials and OS metadata
+.env
+.env.*
+.DS_Store
+Thumbs.db

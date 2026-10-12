@@ -1,0 +1,7 @@
+{
+  "mean_dice": 0.19222356583639583,
+  "std_dice": 0.07060326019335084,
+  "n_test": 8,
+  "best_epoch": 20,
+  "smoke_test": false
+}

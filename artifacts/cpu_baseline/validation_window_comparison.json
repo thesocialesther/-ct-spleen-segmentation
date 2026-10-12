@@ -1,0 +1,40 @@
+[
+  {
+    "roi": [
+      48,
+      48,
+      48
+    ],
+    "checkpoint_epoch": 15,
+    "mean_dice": 0.16461839606615492,
+    "cases": [
+      {
+        "case": "spleen_44.nii.gz",
+        "dice": 0.12455429987308878
+      },
+      {
+        "case": "spleen_47.nii.gz",
+        "dice": 0.20468249225922103
+      }
+    ]
+  },
+  {
+    "roi": [
+      96,
+      96,
+      96
+    ],
+    "checkpoint_epoch": 15,
+    "mean_dice": 0.16733174291497116,
+    "cases": [
+      {
+        "case": "spleen_44.nii.gz",
+        "dice": 0.09186390532544379
+      },
+      {
+        "case": "spleen_47.nii.gz",
+        "dice": 0.24279958050449854
+      }
+    ]
+  }
+]

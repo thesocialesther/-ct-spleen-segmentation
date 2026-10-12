@@ -1,0 +1,430 @@
+{
+  "syntax_checked_code_cells": 11,
+  "training_scans": 41,
+  "masks": 41,
+  "unlabeled_test_scans": 20,
+  "missing_labels": [],
+  "orphan_labels": [],
+  "archived_mask_checks": "All masks readable, binary, nonempty, and shape-matched.",
+  "runtime_training": "Completed: see executed ct.ipynb and artifacts/cpu_baseline.",
+  "note": "The executed notebook also checks image finiteness and affine alignment.",
+  "cases": [
+    {
+      "case": "spleen_10.nii.gz",
+      "shape": [
+        512,
+        512,
+        55
+      ],
+      "datatype": 2,
+      "spleen_voxels": 53071
+    },
+    {
+      "case": "spleen_12.nii.gz",
+      "shape": [
+        512,
+        512,
+        168
+      ],
+      "datatype": 2,
+      "spleen_voxels": 537685
+    },
+    {
+      "case": "spleen_13.nii.gz",
+      "shape": [
+        512,
+        512,
+        77
+      ],
+      "datatype": 2,
+      "spleen_voxels": 203903
+    },
+    {
+      "case": "spleen_14.nii.gz",
+      "shape": [
+        512,
+        512,
+        54
+      ],
+      "datatype": 2,
+      "spleen_voxels": 124163
+    },
+    {
+      "case": "spleen_16.nii.gz",
+      "shape": [
+        512,
+        512,
+        61
+      ],
+      "datatype": 2,
+      "spleen_voxels": 40044
+    },
+    {
+      "case": "spleen_17.nii.gz",
+      "shape": [
+        512,
+        512,
+        95
+      ],
+      "datatype": 2,
+      "spleen_voxels": 96414
+    },
+    {
+      "case": "spleen_18.nii.gz",
+      "shape": [
+        512,
+        512,
+        164
+      ],
+      "datatype": 2,
+      "spleen_voxels": 157714
+    },
+    {
+      "case": "spleen_19.nii.gz",
+      "shape": [
+        512,
+        512,
+        51
+      ],
+      "datatype": 2,
+      "spleen_voxels": 96852
+    },
+    {
+      "case": "spleen_2.nii.gz",
+      "shape": [
+        512,
+        512,
+        90
+      ],
+      "datatype": 2,
+      "spleen_voxels": 96672
+    },
+    {
+      "case": "spleen_20.nii.gz",
+      "shape": [
+        512,
+        512,
+        168
+      ],
+      "datatype": 2,
+      "spleen_voxels": 221465
+    },
+    {
+      "case": "spleen_21.nii.gz",
+      "shape": [
+        512,
+        512,
+        89
+      ],
+      "datatype": 2,
+      "spleen_voxels": 100998
+    },
+    {
+      "case": "spleen_22.nii.gz",
+      "shape": [
+        512,
+        512,
+        148
+      ],
+      "datatype": 2,
+      "spleen_voxels": 194955
+    },
+    {
+      "case": "spleen_24.nii.gz",
+      "shape": [
+        512,
+        512,
+        94
+      ],
+      "datatype": 2,
+      "spleen_voxels": 20702
+    },
+    {
+      "case": "spleen_25.nii.gz",
+      "shape": [
+        512,
+        512,
+        87
+      ],
+      "datatype": 2,
+      "spleen_voxels": 81394
+    },
+    {
+      "case": "spleen_26.nii.gz",
+      "shape": [
+        512,
+        512,
+        65
+      ],
+      "datatype": 2,
+      "spleen_voxels": 88339
+    },
+    {
+      "case": "spleen_27.nii.gz",
+      "shape": [
+        512,
+        512,
+        119
+      ],
+      "datatype": 2,
+      "spleen_voxels": 64222
+    },
+    {
+      "case": "spleen_28.nii.gz",
+      "shape": [
+        512,
+        512,
+        44
+      ],
+      "datatype": 2,
+      "spleen_voxels": 36641
+    },
+    {
+      "case": "spleen_29.nii.gz",
+      "shape": [
+        512,
+        512,
+        103
+      ],
+      "datatype": 2,
+      "spleen_voxels": 49606
+    },
+    {
+      "case": "spleen_3.nii.gz",
+      "shape": [
+        512,
+        512,
+        40
+      ],
+      "datatype": 2,
+      "spleen_voxels": 58026
+    },
+    {
+      "case": "spleen_31.nii.gz",
+      "shape": [
+        512,
+        512,
+        56
+      ],
+      "datatype": 2,
+      "spleen_voxels": 130421
+    },
+    {
+      "case": "spleen_32.nii.gz",
+      "shape": [
+        512,
+        512,
+        104
+      ],
+      "datatype": 2,
+      "spleen_voxels": 82734
+    },
+    {
+      "case": "spleen_33.nii.gz",
+      "shape": [
+        512,
+        512,
+        83
+      ],
+      "datatype": 2,
+      "spleen_voxels": 96254
+    },
+    {
+      "case": "spleen_38.nii.gz",
+      "shape": [
+        512,
+        512,
+        100
+      ],
+      "datatype": 2,
+      "spleen_voxels": 27128
+    },
+    {
+      "case": "spleen_40.nii.gz",
+      "shape": [
+        512,
+        512,
+        93
+      ],
+      "datatype": 2,
+      "spleen_voxels": 60144
+    },
+    {
+      "case": "spleen_41.nii.gz",
+      "shape": [
+        512,
+        512,
+        94
+      ],
+      "datatype": 2,
+      "spleen_voxels": 46185
+    },
+    {
+      "case": "spleen_44.nii.gz",
+      "shape": [
+        512,
+        512,
+        92
+      ],
+      "datatype": 2,
+      "spleen_voxels": 31337
+    },
+    {
+      "case": "spleen_45.nii.gz",
+      "shape": [
+        512,
+        512,
+        112
+      ],
+      "datatype": 2,
+      "spleen_voxels": 55685
+    },
+    {
+      "case": "spleen_46.nii.gz",
+      "shape": [
+        512,
+        512,
+        99
+      ],
+      "datatype": 2,
+      "spleen_voxels": 90347
+    },
+    {
+      "case": "spleen_47.nii.gz",
+      "shape": [
+        512,
+        512,
+        88
+      ],
+      "datatype": 2,
+      "spleen_voxels": 138188
+    },
+    {
+      "case": "spleen_49.nii.gz",
+      "shape": [
+        512,
+        512,
+        61
+      ],
+      "datatype": 2,
+      "spleen_voxels": 104397
+    },
+    {
+      "case": "spleen_52.nii.gz",
+      "shape": [
+        512,
+        512,
+        112
+      ],
+      "datatype": 2,
+      "spleen_voxels": 71002
+    },
+    {
+      "case": "spleen_53.nii.gz",
+      "shape": [
+        512,
+        512,
+        156
+      ],
+      "datatype": 2,
+      "spleen_voxels": 57851
+    },
+    {
+      "case": "spleen_56.nii.gz",
+      "shape": [
+        512,
+        512,
+        33
+      ],
+      "datatype": 2,
+      "spleen_voxels": 22812
+    },
+    {
+      "case": "spleen_59.nii.gz",
+      "shape": [
+        512,
+        512,
+        50
+      ],
+      "datatype": 2,
+      "spleen_voxels": 94315
+    },
+    {
+      "case": "spleen_6.nii.gz",
+      "shape": [
+        512,
+        512,
+        135
+      ],
+      "datatype": 2,
+      "spleen_voxels": 154736
+    },
+    {
+      "case": "spleen_60.nii.gz",
+      "shape": [
+        512,
+        512,
+        97
+      ],
+      "datatype": 2,
+      "spleen_voxels": 95369
+    },
+    {
+      "case": "spleen_61.nii.gz",
+      "shape": [
+        512,
+        512,
+        101
+      ],
+      "datatype": 2,
+      "spleen_voxels": 54596
+    },
+    {
+      "case": "spleen_62.nii.gz",
+      "shape": [
+        512,
+        512,
+        80
+      ],
+      "datatype": 2,
+      "spleen_voxels": 120843
+    },
+    {
+      "case": "spleen_63.nii.gz",
+      "shape": [
+        512,
+        512,
+        60
+      ],
+      "datatype": 2,
+      "spleen_voxels": 126135
+    },
+    {
+      "case": "spleen_8.nii.gz",
+      "shape": [
+        512,
+        512,
+        31
+      ],
+      "datatype": 2,
+      "spleen_voxels": 108477
+    },
+    {
+      "case": "spleen_9.nii.gz",
+      "shape": [
+        512,
+        512,
+        41
+      ],
+      "datatype": 2,
+      "spleen_voxels": 97210
+    }
+  ],
+  "test_summary": {
+    "mean_dice": 0.19222356583639583,
+    "std_dice": 0.07060326019335084,
+    "n_test": 8,
+    "best_epoch": 20,
+    "smoke_test": false
+  }
+}
