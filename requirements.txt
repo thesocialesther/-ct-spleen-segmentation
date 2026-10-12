@@ -1,0 +1,9 @@
+torch==2.14.1
+monai==1.6.1
+nibabel==5.4.2
+numpy==2.5.4
+matplotlib==3.11.2
+pandas==3.0.6
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

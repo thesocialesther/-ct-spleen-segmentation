@@ -18,7 +18,7 @@ The main notebook, [`ct.ipynb`](ct.ipynb), contains the executed workflow: libra
 **Dice score** measures the overlap between a predicted mask and the reference mask:
 
 ```text
-Dice = 2 Ã— overlapping foreground voxels / (predicted foreground voxels + reference foreground voxels)
+Dice = 2 × overlapping foreground voxels / (predicted foreground voxels + reference foreground voxels)
 ```
 
 A score of 1 means perfect overlap. Background is excluded from the reported Dice score.
@@ -41,10 +41,10 @@ Download [`Task09_Spleen.tar`](https://msd-for-monai.s3-us-west-2.amazonaws.com/
 
 ```text
 Task09_Spleen/
-â”œâ”€â”€ dataset.json
-â”œâ”€â”€ imagesTr/
-â”œâ”€â”€ labelsTr/
-â””â”€â”€ imagesTs/
+├── dataset.json
+├── imagesTr/
+├── labelsTr/
+└── imagesTs/
 ```
 
 The raw archive is designated for Git Large File Storage (LFS). Its LFS upload is pending because the connected GitHub tools support repository commits but do not support LFS object uploads. Until that upload is completed, download the archive using the dataset link above. Extracted scans are regenerated from the archive. The 1.6 GB archive exceeds [GitHub's ordinary repository file limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Installed Python packages, runtime connection files and regenerated preprocessing caches are excluded. The notebook, code, trained weights, figures and measured results are included.
@@ -58,9 +58,9 @@ The saved experiment is an actual **30-epoch CPU training run**, using all 25 tr
 | Model | 3D U-Net with 1 input channel and 2 output classes |
 | Feature channels | 8, 16, 32, 64, 128 |
 | Trainable parameters | 1,202,793 |
-| Voxel spacing | 3 Ã— 3 Ã— 3 mm |
-| Training patch | 48 Ã— 48 Ã— 48 voxels |
-| Inference window | 96 Ã— 96 Ã— 96 voxels |
+| Voxel spacing | 3 × 3 × 3 mm |
+| Training patch | 48 × 48 × 48 voxels |
+| Inference window | 96 × 96 × 96 voxels |
 | Patches per training case | 2 |
 | Optimizer | Adam, learning rate 0.001 |
 | Epochs | 30 |
