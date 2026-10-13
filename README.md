@@ -47,7 +47,7 @@ Task09_Spleen/
 └── imagesTs/
 ```
 
-The raw archive is designated for Git Large File Storage (LFS). Its LFS upload is pending because the connected GitHub tools support repository commits but do not support LFS object uploads. Until that upload is completed, download the archive using the dataset link above. Extracted scans are regenerated from the archive. The 1.6 GB archive exceeds [GitHub's ordinary repository file limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Installed Python packages, runtime connection files and regenerated preprocessing caches are excluded. The notebook, code, trained weights, figures and measured results are included.
+The complete raw archive is included as 12 smaller Git LFS files in `dataset_parts/`, so interrupted transfers can retry individual pieces. Install Git LFS before cloning and run `git lfs pull`. Then run `python restore_dataset.py` to reassemble the checksum-verified original archive. The notebook also reassembles it automatically before extraction. Allow space for the downloaded parts, reconstructed archive and extracted dataset. The original download link remains available as an alternative. The 1.6 GB archive exceeds [GitHub's ordinary repository file limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Installed Python packages, runtime connection files and regenerated preprocessing caches are excluded. The notebook, code, trained weights, figures and measured results are included.
 
 ## Measured training and test results
 
@@ -111,6 +111,7 @@ Rerunning the notebook starts training from scratch and updates the matching out
 | File or directory | Contents |
 | --- | --- |
 | `ct.ipynb` | Executed end-to-end segmentation notebook |
+| `restore_dataset.py` | Reassembles and verifies the Git LFS dataset archive |
 | `execute_notebook.py` | Runs the notebook with an isolated project kernel |
 | `build_notebook.py` | Regenerates the notebook structure and clears its outputs |
 | `verify_notebook.py` | Checks notebook syntax and masks inside the dataset archive |

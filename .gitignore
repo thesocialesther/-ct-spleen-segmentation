@@ -19,3 +19,6 @@ __pycache__/
 .env.*
 .DS_Store
 Thumbs.db
+
+# Archive rebuilt from Git LFS dataset parts
+/Task09_Spleen.tar*
