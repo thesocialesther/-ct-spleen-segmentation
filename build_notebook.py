@@ -63,6 +63,9 @@ with open(RUN / 'run_config.json', 'w') as f:
         'channels': CHANNELS, 'patches_per_case': PATCHES, 'learning_rate': LEARNING_RATE,
         'smoke_test': SMOKE_TEST, 'torch': torch.__version__, 'monai': monai.__version__}, f, indent=2)
 if not DATA.exists():
+    if not ARCHIVE.exists() and (ROOT / 'dataset_parts' / 'manifest.json').exists():
+        from restore_dataset import restore_archive
+        restore_archive(ROOT)
     if not ARCHIVE.exists():
         raise FileNotFoundError(f'Place Task09_Spleen.tar in {ROOT}')
     with tarfile.open(ARCHIVE) as archive:

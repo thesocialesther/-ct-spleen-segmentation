@@ -1,0 +1,68 @@
+{
+  "file": "Task09_Spleen.tar",
+  "size": 1610352640,
+  "sha256": "dfeba347daae4fb08c38f4d243ab606b28b91b206ffc445ec55c35489fa65e60",
+  "md5": "410d4a301da4e5b2f6f86ec3ddba524e",
+  "parts": [
+    {
+      "file": "Task09_Spleen.tar.part001",
+      "size": 134217728,
+      "sha256": "60ab49b1b247524cde0d6cbf2db1b7c4e8bd12c72cde20a76dab603df4cb3853"
+    },
+    {
+      "file": "Task09_Spleen.tar.part002",
+      "size": 134217728,
+      "sha256": "4855203cd7131c3dab1fd4f54bf708f3e10510779d5ce5029699912df9465b22"
+    },
+    {
+      "file": "Task09_Spleen.tar.part003",
+      "size": 134217728,
+      "sha256": "4cd06e2a8dea7bede134dc96a64cf607a7b145c5431752457a74534aeddafef3"
+    },
+    {
+      "file": "Task09_Spleen.tar.part004",
+      "size": 134217728,
+      "sha256": "2a0b06b74841f5d9b1bf03aca08aa09aad485733327a878db383c1ec508745ba"
+    },
+    {
+      "file": "Task09_Spleen.tar.part005",
+      "size": 134217728,
+      "sha256": "e20a27ba820a00045e35bfdee0bc6cd86c01f3615ab625c8fb5dea96e4899c21"
+    },
+    {
+      "file": "Task09_Spleen.tar.part006",
+      "size": 134217728,
+      "sha256": "10904f538a06c55eca396ebec8cd519d56ca669f98999031d1c30b0d20371f77"
+    },
+    {
+      "file": "Task09_Spleen.tar.part007",
+      "size": 134217728,
+      "sha256": "718532e3e31dd73bf273595b64bd8b1b9b2af3526ecf06ded3f7f0c88b79952b"
+    },
+    {
+      "file": "Task09_Spleen.tar.part008",
+      "size": 134217728,
+      "sha256": "9b1652ca853ae91437fb8f802896e990c562fc0830a8883a73a23740ef9cbe07"
+    },
+    {
+      "file": "Task09_Spleen.tar.part009",
+      "size": 134217728,
+      "sha256": "570dfbfbfdb8cab297930862f0d27e05275ad2073bee202b4a5d0754acb6aec4"
+    },
+    {
+      "file": "Task09_Spleen.tar.part010",
+      "size": 134217728,
+      "sha256": "5fadd8b31fe3bc35e68759e869f89dfe0555ffc778517a9da8025daf84ec9e8b"
+    },
+    {
+      "file": "Task09_Spleen.tar.part011",
+      "size": 134217728,
+      "sha256": "6b59f23367d476465c2cf5a89c36e37baf6fef4c2b228e26892934150f73ff85"
+    },
+    {
+      "file": "Task09_Spleen.tar.part012",
+      "size": 133957632,
+      "sha256": "a395f28c60a6f618d3156a8b207758dcb7382f589ba8aa9c79aed67bda56d6ee"
+    }
+  ]
+}
